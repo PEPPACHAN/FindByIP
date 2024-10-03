@@ -14,6 +14,8 @@
 		FC3EC51C2C8B2ECF000F5D5A /* FindByIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EC51B2C8B2ECF000F5D5A /* FindByIPTests.swift */; };
 		FC3EC5262C8B2ECF000F5D5A /* FindByIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EC5252C8B2ECF000F5D5A /* FindByIPUITests.swift */; };
 		FC3EC5282C8B2ECF000F5D5A /* FindByIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EC5272C8B2ECF000F5D5A /* FindByIPUITestsLaunchTests.swift */; };
+		FC3EC5352C8B2EEF000F5D5A /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EC5342C8B2EEF000F5D5A /* Controller.swift */; };
+		FC3EC5372C8B2F8D000F5D5A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EC5362C8B2F8D000F5D5A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FC3EC5212C8B2ECF000F5D5A /* FindByIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindByIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC3EC5252C8B2ECF000F5D5A /* FindByIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindByIPUITests.swift; sourceTree = "<group>"; };
 		FC3EC5272C8B2ECF000F5D5A /* FindByIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindByIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC3EC5342C8B2EEF000F5D5A /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		FC3EC5362C8B2F8D000F5D5A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				FC3EC50C2C8B2ECD000F5D5A /* ContentView.swift */,
 				FC3EC50E2C8B2ECF000F5D5A /* Assets.xcassets */,
 				FC3EC5102C8B2ECF000F5D5A /* Preview Content */,
+				FC3EC5342C8B2EEF000F5D5A /* Controller.swift */,
+				FC3EC5362C8B2F8D000F5D5A /* Model.swift */,
 			);
 			path = FindByIP;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3EC5352C8B2EEF000F5D5A /* Controller.swift in Sources */,
 				FC3EC50D2C8B2ECD000F5D5A /* ContentView.swift in Sources */,
 				FC3EC50B2C8B2ECD000F5D5A /* FindByIPApp.swift in Sources */,
+				FC3EC5372C8B2F8D000F5D5A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
